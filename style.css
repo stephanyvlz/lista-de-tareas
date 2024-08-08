@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgb(101, 134, 177);
+    background: linear-gradient(0deg,rgba(140, 48, 97, 1) 23%, rgb(58, 41, 119) 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    color: #ab90d6;
+    display: flex;
+    justify-content: center;
+}
+#frase{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: #b8add8;
+}
+.contenedor{
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.encabezado{
+    color: #ddd1e2;
+    padding: 20px 0 5px 0;
+}
+
+.agregar{
+    background-color: #d1dce2;
+    border-radius: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #f8ecff;
+}
+
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color: #522258;
+}
+.agregar i{
+    font-size: 45px;
+    color: #522258;
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* sección de tareas */
+.tareas h2{
+    margin-bottom: 20px;
+    /* color: #8C3061; */
+}
+.tareas li{
+    background-color: #DBAFA0;
+    border-radius: 15px;
+    padding: 10px;
+    color: #522258;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tareas{
+    font-size: 25px;
+    font-weight: 200;
+}
+.tareas p{
+    font-weight: 600;
+}
+
+.tareas i:hover{
+    color: #f1e865;
+    cursor: pointer;
+}
+
+.tachado{
+    text-decoration: line-through;
+    color: #a52c17;
+}
+
